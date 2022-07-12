@@ -9,10 +9,13 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url("../images/wooden-blue-background.jpg");
+}
+
 /* Header / Nav Bar Start */
 header {
     background-image: url("../images/wooden-blue-background.jpg");
-    color: gray;
 }
 
 header h1 {
@@ -28,7 +31,6 @@ header a {
     color: #fff;
     justify-content: center;
 }
-
 
 header nav ul {
     display: flex;
@@ -52,23 +54,113 @@ header img {
     max-width: 100%;
     height: 0;
 }
-
-
 /* Header / Nav Bar End */
 
-work img {
-    max-width: 100%;
-    height: auto;
+/* Hero/Jumbotron Start */
+.hero-subtitle {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-align: right;
+    margin: 0;
+    padding-right: 50px;
+    background-color:skyblue;
+    
+}
+/* Hero/Jumbotron End */
+
+/* "About Me" Section Start */
+.intro {
+    font-family: var(--primary-font);
+    color: #fff;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
 }
 
+.intro img {
+    border-radius: 50%;
+    display: flex;
+
+}
+/* "About Me" Section End */
+
+/* Work Section Start */
+.run-buddy {
+    display: flex;
+}
+
+.run-buddy:hover {
+    background: coral;
+}
+
+.coffee-cabinet:hover {
+    background: coral;
+}
+
+.cycling-report:hover {
+    background: coral;
+}
+
+.musical-puzzles:hover {
+    background: coral;
+}
+
+.frankenzinc:hover {
+    background: coral;
+}
+
+.projects {
+    font-family: var(--primary-font);
+    color: #fff;
+    font-weight: bolder;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+
+.projects img {
+    opacity: 0.75;
+}
+
+/* Work Section End */
+
+/* "Contact Me" Section Start */
+address {
+    text-align: center;
+    display: flex;
+    margin: 15px 0;
+    text-decoration: underline;
+    padding-bottom: 25px;
+    justify-content: space-around;
+    list-style: none;
+    font-family: var(--primary-font);
+    color: #fff;
+}
+
+address a {
+    color: #fff;
+}
+
+.connect {
+    background-image: url("../images/wooden-blue-background.jpg");
+    font-family: var(--primary-font);
+    color: #fff;
+}
+
+.connect img {
+    max-width: 100%;
+    height: 0;
+}
+/* "Contact Me" Section End */
 
 /* Footer Start */
-
+footer {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 15px;
+}
 /* Footer End */
 
 /* Utilities */
 .flex-row {
     display: flex;
 }
-
-

@@ -1,0 +1,17 @@
+:root {
+    --primary-color: #000000;
+}
+
+* {
+    background-color: #fff;
+}
+
+header a {
+    color: var(--primary-color);
+}
+
+p {
+    color: var(--primary-color);  
+    text-align: center;
+    line-height: 50px;
+}
