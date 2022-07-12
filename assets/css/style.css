@@ -1,12 +1,78 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header / Nav Bar Start */
+header {
+    background-image: url("../images/wooden-blue-background.jpg");
+    color: gray;
+}
 
 header h1 {
     font-weight: bold;
-    font-size: 36px;
-    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    font-family: "Playfair Display", serif;
     color: #fff;
-    margin: 0;
+    text-align: center;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
+header a {
+    text-decoration: none;
+    color: #fff;
+    justify-content: center;
 }
+
+
+header nav ul {
+    display: flex;
+    margin: 15px 0;
+    text-decoration: underline;
+    padding-bottom: 25px;
+    justify-content: space-around;
+    list-style: none;
+}
+
+header nav ul li {
+    font-family: var(--primary-font);
+}
+
+header nav ul li a:link {
+
+}
+
+header nav ul li a:hover {
+    color: coral;
+    text-decoration: underline;
+}
+
+header img {
+    max-width: 100%;
+    height: 0;
+}
+
+
+/* Header / Nav Bar End */
+
+work img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Footer Start */
+
+/* Footer End */
+
+/* Utilities */
+.flex-row {
+    display: flex;
+}
+
+
