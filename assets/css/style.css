@@ -16,12 +16,22 @@ body {
 /* Header / Nav Bar Start */
 header {
     background-image: url("../images/wooden-blue-background.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    position: sticky;
+    z-index: 9999;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 header h1 {
-    font-weight: bold;
-    font-size: 34px;
-    font-family: "Playfair Display", serif;
+    font-weight: lighter;
+    font-size: 50px;
+    font-family: 'Lobster Two', cursive;
     color: #fff;
     text-align: center;
 }
@@ -32,98 +42,265 @@ header a {
     justify-content: center;
 }
 
-header nav ul {
-    display: flex;
-    margin: 15px 0;
-    text-decoration: underline;
-    padding-bottom: 25px;
-    justify-content: space-around;
-    list-style: none;
-}
-
-header nav ul li {
-    font-family: var(--primary-font);
-}
-
-header nav ul li a:hover {
-    color: coral;
-    text-decoration: underline;
-}
-
 header img {
     max-width: 100%;
     height: 0;
 }
+
+header nav {
+    overflow: auto;
+}
+
+header nav ul {
+    display: flex;
+    margin: 15px 0;
+    text-decoration: underline;
+    list-style: none;
+    width: 100%;
+    
+}
+
+header nav ul li {
+    font-family: var(--primary-font); 
+    font-size: 26px; 
+    width: 25%;
+    margin: 10px; 
+}
+
+header nav ul li a {
+    display: block;
+}
+
+header nav ul li a:hover {
+    color: rgb(255, 128, 82);
+    text-decoration: underline;
+   
+}
+
 /* Header / Nav Bar End */
+
+body {
+    width: 100%;
+    margin: 0 auto;
+}
 
 /* Hero/Jumbotron Start */
 .hero-subtitle {
-    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px;
+    color:rgb(12, 71, 90);
     text-align: right;
     margin: 0;
     padding-right: 50px;
-    background-color:skyblue;
+    background-color:rgb(137, 207, 235);
     
 }
 /* Hero/Jumbotron End */
 
-/* "About Me" Section Start */
+/* "About" Section Start */
+
+
 .intro {
     font-family: var(--primary-font);
     color: #fff;
-    font-weight: bolder;
-    display: flex;
-    justify-content: center;
+    padding: 25px;
+    margin: 25px;
+    border: 10px;
+}
+
+.intro h3 {
+    font-size: 35px;
+    font-weight: 350;
+    padding: 10px 40px;
+}
+
+.intro p {
+    text-align: center;
+    color: #fff;
+    font-family: var(--primary-font);
+    font-weight: light;
+    padding: 25px;
 }
 
 .intro img {
     border-radius: 50%;
     display: flex;
-
+    flex-wrap: wrap;
+    padding-left: 35px;
+    margin-left: 40%;
 }
-/* "About Me" Section End */
+/* "About" Section End */
 
 /* Work Section Start */
-.run-buddy {
-    display: flex;
-}
-
-.run-buddy:hover {
-    background: coral;
-}
-
-.coffee-cabinet:hover {
-    background: coral;
-}
-
-.cycling-report:hover {
-    background: coral;
-}
-
-.musical-puzzles:hover {
-    background: coral;
-}
-
-.frankenzinc:hover {
-    background: coral;
-}
 
 .projects {
     font-family: var(--primary-font);
     color: #fff;
     font-weight: bolder;
+    justify-content: space-between;  
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;  
+    flex: 2 0;
+    padding: 25px;
+    margin: 25px;
+    border: 10px;
 }
 
-.projects img {
+.projects h3 {
+    font-size: 35px;
+    font-weight: 350;
+    padding: 10px 40px;
+}
+
+.run-buddy {
+    position: relative;
+    justify-content: center;
+    width: 100%;
+}
+
+.run-buddy img {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2 0;
+    opacity: 0.75;
+    width: 100%;
+}
+
+.run-buddy a {
+    color: #fff;
+}
+
+.run-buddy figcaption {
+    background-color:rgb(137, 207, 235);
+}
+
+.run-buddy:hover {
+    background: rgb(255, 128, 82);
+}
+
+.coffee-cabinet {
+    position: relative;
+    justify-content: center;
+    width: 50%;
+}
+
+.coffee-cabinet img {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2 0 320px;
+    opacity: 0.75;
+    width: 100%;
+}
+
+.coffee-cabinet a {
+    color: #fff;
+}
+
+.coffee-cabinet figcaption {
+    background-color:rgb(137, 207, 235);
+}
+
+.coffee-cabinet:hover {
+    background: rgb(255, 126, 79);
+}
+
+.cycling-report {
+    position: relative;
+    justify-content: center;
+    width: 50%;
+}
+
+.cycling-report img {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2 0;
+    opacity: 0.75;
+    width: 100%;
+}
+
+.cycling-report a {
+    color: #fff;
+}
+
+.cycling-report figcaption {
+    background-color:rgb(137, 207, 235);
+}
+
+.cycling-report:hover {
+    background: rgb(255, 127, 80);
+}
+
+.musical-puzzles {
+    position: relative;
+    justify-content: center;
+    width: 50%;
+    overflow: hidden;
+}
+
+.musical-puzzles img {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2 1;
     opacity: 0.75;
 }
 
+.musical-puzzles a {
+    color: #fff;
+}
+
+.musical-puzzles figcaption {
+    background-color:rgb(137, 207, 235);
+}
+
+.musical-puzzles:hover {
+    background: rgb(255, 127, 80);
+}
+
+.frankenzinc {
+    position: relative;
+    justify-content: center;
+    width: 50%;
+    overflow: hidden;
+}
+
+.frankenzinc img {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2 1;
+    opacity: 0.75;
+}
+
+.frankenzinc a {
+    color: #fff;
+}
+
+.frankenzinc figcaption {
+    background-color:rgb(137, 207, 235);
+}
+
+.frankenzinc:hover {
+    background: rgb(255, 127, 80);
+}
+
+
+
 /* Work Section End */
 
-/* "Contact Me" Section Start */
+/* "Contact" Section Start */
+.connect {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.connect h3 {
+    font-size: 35px;
+    font-weight: 350;
+    padding: 10px 40px;
+}
+
 address {
     text-align: center;
     display: flex;
@@ -134,6 +311,8 @@ address {
     list-style: none;
     font-family: var(--primary-font);
     color: #fff;
+    width: 100%;
+    font-size: 18px;
 }
 
 address a {
@@ -144,13 +323,15 @@ address a {
     background-image: url("../images/wooden-blue-background.jpg");
     font-family: var(--primary-font);
     color: #fff;
+    justify-content: space-between;
+    font-size: 15px;
 }
 
 .connect img {
     max-width: 100%;
     height: 0;
 }
-/* "Contact Me" Section End */
+/* "Contact" Section End */
 
 /* Footer Start */
 footer {
@@ -164,3 +345,37 @@ footer {
 .flex-row {
     display: flex;
 }
+
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 25px;
+    }
+
+    .intro {
+        width: 100%;
+    }
+
+    .projects {
+        width: 100%;
+    }
+
+    .connect {
+        width: 100%;
+    }

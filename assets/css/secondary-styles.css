@@ -1,9 +1,10 @@
 :root {
-    --primary-color: #000000;
+    --primary-color: #fff;
 }
 
-* {
-    background-color: #fff;
+.page-title {
+    color: var(--primary-color);
+    text-align: center;
 }
 
 header a {
