@@ -21,6 +21,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 10px 40px;
+    position: -webkit-sticky;
     position: sticky;
     z-index: 9999;
     background-size: cover;
@@ -57,6 +58,7 @@ header nav ul {
     text-decoration: underline;
     list-style: none;
     width: 100%;
+    text-underline-position: under;
     
 }
 
@@ -84,7 +86,23 @@ body {
     margin: 0 auto;
 }
 
+section {
+    padding: 30px;
+}
 /* Hero/Jumbotron Start */
+.hero {
+    background-image: url("../images/blue-paint-background.jpg");
+}
+
+.hero-banner {
+    display: flex;
+    background-color:rgb(137, 207, 235);
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+    margin: 4%;
+}
+
 .hero-subtitle {
     font-family: 'Lobster Two', cursive;
     font-size: 50px;
@@ -112,6 +130,8 @@ body {
     font-size: 35px;
     font-weight: 350;
     padding: 10px 40px;
+    text-decoration-line: underline;
+    text-underline-position: under;
 }
 
 .intro p {
@@ -144,6 +164,8 @@ body {
     padding: 25px;
     margin: 25px;
     border: 10px;
+    text-decoration-line: underline;
+    text-underline-position: under;
 }
 
 .projects h3 {
@@ -293,6 +315,9 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px 40px;
+    text-decoration-line: underline;
+    text-underline-position: under;
+    
 }
 
 .connect h3 {
@@ -318,6 +343,12 @@ address {
 address a {
     color: #fff;
 }
+
+address a:hover {
+    color: rgb(255, 128, 82);
+    text-decoration: underline;
+}
+
 
 .connect {
     background-image: url("../images/wooden-blue-background.jpg");
