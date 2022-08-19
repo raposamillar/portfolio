@@ -10,12 +10,15 @@
 }
 
 body {
-    background-image: url("../images/wooden-blue-background.jpg");
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("../images/ocean-background.jpg");
+    background-size: cover;
 }
 
 /* Header / Nav Bar Start */
 header {
-    background-image: url("../images/wooden-blue-background.jpg");
+    /* background-image: url("../images/wooden-blue-background.jpg"); */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -82,17 +85,13 @@ header nav ul li a:hover {
 
 /* Header / Nav Bar End */
 
-body {
-    width: 100%;
-    margin: 0 auto;
-}
-
 section {
     padding: 30px;
 }
 /* Hero/Jumbotron Start */
 .hero {
     background-image: url("../images/blue-paint-background.jpg");
+    background-size: cover;
 }
 
 .hero-banner {
@@ -375,7 +374,7 @@ address a:hover {
 
 
 .connect {
-    background-image: url("../images/wooden-blue-background.jpg");
+    /* background-image: url("../images/ocean-background.jpg"); */
     font-family: var(--primary-font);
     color: #fff;
     justify-content: space-between;
