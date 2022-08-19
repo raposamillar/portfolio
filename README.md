@@ -22,3 +22,4 @@ This portfolio provides links to deployed projects currently in-development.
 July - December 2022
 
 https://raposamillar.github.io/portfolio/
+![raposamillar-portfolio-screenshot](https://user-images.githubusercontent.com/102566988/179050171-40ac0b04-04e2-4ffd-946b-e00bec7870bd.jpg)
