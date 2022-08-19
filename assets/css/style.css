@@ -174,6 +174,32 @@ section {
     padding: 10px 40px;
 }
 
+.project-1 {
+    position: relative;
+    justify-content: center;
+    width: 100%;
+}
+
+.project-1 img {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2 0;
+    opacity: 0.75;
+    width: 100%;
+}
+
+.project-1 a {
+    color: #fff;
+}
+
+.project-1 figcaption {
+    background-color:rgb(137, 207, 235);
+}
+
+.project-1:hover {
+    background: rgb(255, 128, 82);
+}
+
 .run-buddy {
     position: relative;
     justify-content: center;
@@ -303,8 +329,6 @@ section {
 .frankenzinc:hover {
     background: rgb(255, 127, 80);
 }
-
-
 
 /* Work Section End */
 
