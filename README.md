@@ -4,9 +4,10 @@
 Hello, my name is Lisa Raposa Millar and I am a web developer based in Toronto.  
 
 ## Purpose 
-This portfolio provides links to deployed projects currently in-development.
+This portfolio provides links to deployed projects completed and currently in-development.
 
 ## Contents
+* A Night In: A collaborative application designed to make movie night at home easier.
 
 * Run Buddy: A mock application for a running service built with HTML and CSS.
 
@@ -21,5 +22,5 @@ This portfolio provides links to deployed projects currently in-development.
 ## Projected Development Timeframe
 July - December 2022
 
-https://raposamillar.github.io/portfolio/
-![raposamillar-portfolio-screenshot](https://user-images.githubusercontent.com/102566988/179050171-40ac0b04-04e2-4ffd-946b-e00bec7870bd.jpg)
+https://raposamillar.github.io/portfolio/ <br>
+<img src="./assets/images/raposamillar-portfolio-screenshot.jpg" width="350" />
