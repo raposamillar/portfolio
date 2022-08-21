@@ -7,7 +7,7 @@ Hello, my name is Lisa Raposa Millar and I am a web developer based in Toronto.
 This portfolio provides links to deployed projects completed and currently in-development.
 
 ## Contents
-* A Night In: A collaborative application designed to make movie night at home easier.
+* A Night In: A collaborative application designed to make movie night at home easier.  Built with HTML, CSS, and JavaScript.
 
 * Run Buddy: A mock application for a running service built with HTML and CSS.
 
