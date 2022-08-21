@@ -7,6 +7,13 @@
     text-align: center;
 }
 
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("../images/ocean-background.jpg");
+    background-size: cover;
+}
+
 header a {
     color: var(--primary-color);
 }
@@ -16,3 +23,5 @@ p {
     text-align: center;
     line-height: 50px;
 }
+
+
