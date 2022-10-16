@@ -146,11 +146,12 @@ section {
 }
 
 .intro img {
-    border-radius: 50%;
+    /* border-radius: 20px; */
     display: flex;
     flex-wrap: wrap;
     padding-left: 35px;
-    margin-left: 40%;
+    margin-left: 15%;
+    align-items: center;
 }
 /* "About" Section End */
 
@@ -203,13 +204,13 @@ section {
     background: rgb(255, 128, 82);
 }
 
-.run-buddy {
+.chore-buddy {
     position: relative;
     justify-content: center;
     width: 100%;
 }
 
-.run-buddy img {
+.chore-buddy img {
     display: flex;
     flex-wrap: wrap;
     flex: 2 0;
@@ -217,15 +218,15 @@ section {
     width: 100%;
 }
 
-.run-buddy a {
+.chore-buddy a {
     color: #fff;
 }
 
-.run-buddy figcaption {
+.chore-buddy figcaption {
     background-color:rgb(137, 207, 235);
 }
 
-.run-buddy:hover {
+.chore-buddy:hover {
     background: rgb(255, 128, 82);
 }
 
@@ -281,7 +282,7 @@ section {
     background: rgb(255, 127, 80);
 }
 
-.musical-puzzles {
+/* .musical-puzzles {
     position: relative;
     justify-content: center;
     width: 50%;
@@ -305,7 +306,7 @@ section {
 
 .musical-puzzles:hover {
     background: rgb(255, 127, 80);
-}
+} */
 
 .frankenzinc {
     position: relative;
