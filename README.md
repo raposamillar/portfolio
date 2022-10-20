@@ -1,7 +1,7 @@
 # Portfolio
 
 ## Welcome
-Hello, my name is Lisa Raposa Millar and I am a web developer based in Toronto.  
+Hello, my name is Lisa Raposa Millar and I am a web developer in-training based in Toronto.  
 
 ## Purpose 
 This portfolio provides links to deployed projects completed and currently in-development.
